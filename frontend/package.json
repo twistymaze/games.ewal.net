@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@headlessui/react": "2.2.10",
-    "@mantine/hooks": "9.6.3",
+    "@mantine/hooks": "9.7.0",
     "@nivo/bar": "0.99.0",
     "@nivo/core": "0.99.0",
     "@nivo/pie": "0.99.0",
@@ -29,7 +29,7 @@
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "react-icons": "5.7.0",
-    "react-svg": "19.1.6",
+    "react-svg": "19.2.0",
     "typescript": "6.0.3",
     "undici": "8.11.2"
   },
@@ -43,7 +43,7 @@
     "@types/react-dom": "19.3.0",
     "eslint": "10.12.0",
     "eslint-config-next": "16.3.8",
-    "postcss": "8.5.28",
+    "postcss": "8.5.29",
     "tailwindcss": "4.3.3",
     "turbo": "2.11.7"
   },
