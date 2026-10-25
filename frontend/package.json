@@ -45,7 +45,7 @@
     "eslint-config-next": "16.4.2",
     "postcss": "8.5.31",
     "tailwindcss": "4.3.3",
-    "turbo": "2.11.9"
+    "turbo": "2.11.10"
   },
   "prettier": {
     "tabWidth": 2,
