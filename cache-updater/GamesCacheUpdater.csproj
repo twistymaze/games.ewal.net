@@ -14,7 +14,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.13" />
     <PackageReference Include="morelinq" Version="4.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-    <PackageReference Include="AWSSDK.S3" Version="4.0.104.5" />
+    <PackageReference Include="AWSSDK.S3" Version="4.0.104.6" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
