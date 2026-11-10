@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:10.0.404@sha256:fe0fd4e93bd2fbb47c883b7a6369e5c8d3db8bf01cdc5981f6ee35fbdf3ff4fb AS build
+FROM mcr.microsoft.com/dotnet/sdk:11.0.100@sha256:65f3c7c6a25a239ab3e6719f2896147e7b68242ff2d8818dd70498bde6ef8bea AS build
 WORKDIR /src
 COPY ["GamesCacheUpdater.csproj", "./"]
 RUN dotnet restore "GamesCacheUpdater.csproj"
@@ -6,7 +6,7 @@ COPY . .
 RUN dotnet build "GamesCacheUpdater.csproj" -c Release -o /app/build
 RUN dotnet publish "GamesCacheUpdater.csproj" -c Release -o /app/publish
 
-FROM mcr.microsoft.com/dotnet/runtime:10.0.15@sha256:80a51954ac70925e5783cb1ed35129a4243dcb1cddef20066b67346e17db284d
+FROM mcr.microsoft.com/dotnet/runtime:11.0.0@sha256:3fe5f5495141c97986a49d3a4e76061f6225c3f93f94e8a7e522781376193863
 WORKDIR /app
 COPY --from=build /app/publish .
 
